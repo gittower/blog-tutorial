@@ -1,4 +1,11 @@
+# General
 .DS_Store
+
+# Sass
+.sass-cache/
+
+# Kirby
 /site/accounts
 /assets/avatars
 /thumbs/*
+/site/cache/*
