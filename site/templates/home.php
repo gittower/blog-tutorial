@@ -1,19 +1,6 @@
 <?php snippet("html-header") ?>
 
-    <div class="row-wrapper">
-      <div class="outer-container">
-        <header>
-          <div id="logo">
-            <img src="assets/images/logo.svg" />
-          </div>
-          <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+  <?php snippet("navigation") ?>
   
     <div class="row-wrapper">
       <div class="outer-container">
