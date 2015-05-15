@@ -6,8 +6,11 @@
       </div>
       <nav>
         <a href="<?php echo url('home'); ?>">Home</a>
-        <a href="<?php echo url('about'); ?>">About</a>
-	      <a href="<?php echo url('contact'); ?>">Contact</a>
+      	<?php foreach($pages->visible() as $mainpage): ?>
+      	  <a href="<?php echo $mainpage->url(); ?>">
+            <?php echo $mainpage->title(); ?>
+      	  </a>
+      	<?php endforeach; ?>
       </nav>
     </header>
   </div>
