@@ -1,0 +1,13 @@
+@import "../lib/neat/neat-helpers";
+
+// Neat Overrides
+$column: 40px;
+$gutter: 44px;
+$grid-columns: 12;
+$max-width: em(960);
+
+// Neat Breakpoints
+$medium-screen: em(640);
+$large-screen: em(860);
+
+$mobile: new-breakpoint(max-width 480px, 12);

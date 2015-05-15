@@ -1,0 +1,41 @@
+ul,
+ol {
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0;
+
+  &%default-ul {
+    list-style-type: disc;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+
+  &%default-ol {
+    list-style-type: decimal;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+}
+
+dl {
+  margin-bottom: $small-spacing;
+
+  dt {
+    font-weight: bold;
+    margin-top: $small-spacing;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+li:before {
+  content:"›";
+  color: $red;
+}
+li a {
+  padding-left:7px;
+  color:$base-font-color;
+  font-size:$recommended-reading-font-size;
+}

@@ -1,0 +1,6 @@
+@mixin retina-image-container($imagename, $size, $ext:png) {
+  @include size($size);
+  @include retina-image('../images/#{$imagename}', $size, $ext);
+  background-position:center;
+  background-repeat:no-repeat;
+}

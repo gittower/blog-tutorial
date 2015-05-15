@@ -1,0 +1,202 @@
+/************ General Page Elements */
+.row-wrapper {
+  @include row();
+  
+  &:nth-child(odd) {
+    background: $row-background;
+  }
+  
+  .outer-container {
+    @include outer-container;
+  }  
+}
+
+
+/************ Navigation */
+header {
+  @include span-columns(12);
+  height: 72px;
+  display:table;
+
+  #logo {
+    display: table-cell; 
+    vertical-align:middle;
+  }
+  
+  nav {
+    float:right;
+    line-height: 72px;
+    
+    & a {
+      font-size:18px;
+      color: #E3857D;
+      text-transform: uppercase;
+      margin-right:40px;
+      
+      &:last-child {
+        margin-right:9px;
+      }
+    }
+  }
+}
+
+/************ Teaser Top */
+article.teaser--top {
+  @include span-columns(8);
+  @include shift(2);
+  
+  margin-top:88px;
+  margin-bottom:79px;
+  
+  @include media($mobile) {
+    @include shift(1);
+    @include span-columns(10);
+  }
+
+  & .teaser-image {
+    @include size($teaser-image-size);
+    @include background-image(  url("../images/chevron-no-background.svg"), 
+                                linear-gradient(#e34731 0%, #e34d35 33%, #e46143 34%, #e56244 66%, #e57b53 67%, #e57b53 100%));
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    border-radius:8px;
+    margin-bottom:18px;
+  }
+}
+
+/************ Recent Posts */
+#recent-posts {
+  @include shift(2);
+  @include span-columns(8);
+  @include pad(10px 0px 75px 0px);
+  
+  @include media($mobile) {
+    @include shift(1);
+    @include span-columns(10);
+  }
+
+  .teaser--recent {
+    margin-top:50px;
+  }
+  
+  .meta {
+    float:right;
+    @include media($mobile){
+      float:none;
+    }
+  }
+  
+}
+
+/************ Article Detail */
+#full-article {
+  @include span-columns(12);
+  padding-bottom:50px;
+    
+  #article-content {
+    @include shift-in-context(1 of 12);
+    @include span-columns(10 of 12);
+  }
+
+  %article-images {
+    border-radius:$base-border-radius;    
+  }
+  #main-image {
+    @extend %article-images;
+    margin:72px 0px 60px 0px;
+    @include retina-image-container(chevron-main-image, $main-image-size, 'jpg');
+  }
+  .content-image {
+    @extend %article-images;
+    margin:15px 0px 27px 0px;
+    @include retina-image-container('image-article-content', $content-image-size, 'jpg');
+  } 
+}
+
+/************ Subscribe */
+%whitebox {
+  @include shift(1);
+  @include span-columns(10);
+  @include pad(48px 0px 45px 0px);
+  margin-bottom:105px;  
+  background:white;
+  border-top:4px solid $red;  
+}
+
+#subscribe {
+  @extend %whitebox;
+  
+  .note {
+    float:left;
+    margin-left:$column;
+  }
+  
+  .follow {
+    float:right;
+    margin-right:$column;
+  }
+}
+
+/************ Author */
+#author {
+  @include shift(1);
+  @include span-columns(10);
+  padding-top:75px;
+      
+  .author-icon {
+    float:left;
+    margin-right:23px;
+    @include retina-image-container(author, $author-image-size, jpg);
+    border-radius:50%;
+  }
+}
+
+/************ Recommended Reading */
+#recommended-reading {
+  @extend %whitebox;
+  margin-top:55px;
+  
+  h5, 
+  ul {
+    margin-left:($column+$gutter);
+  }
+}
+
+
+
+/************ About */
+#about {
+  @include shift(1);
+  @include span-columns(9);
+  @include pad(79px 0 140px 0);
+
+  %tower-common {
+    margin-top:30px;
+  }
+
+  .tower-icon {
+    @extend %tower-common;
+    height:147px;
+    @include span-columns(2 of 9);
+    @include media($mobile) {
+      @include span-columns(9 of 9);
+      text-align:center;
+    }
+    @include retina-image('../images/icon-tower', 114px 147px);
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+  p {
+    @extend %tower-common;
+  }
+}
+
+/************ Footer */
+footer {
+  @include span-columns(12);
+  font-size:$small-font-size;
+  height:72px;
+  line-height:72px;
+  text-align: center;
+}
+

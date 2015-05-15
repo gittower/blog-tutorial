@@ -1,0 +1,86 @@
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $heading1-font-size;
+  line-height: $heading-line-height;
+  text-transform: uppercase;
+  margin: 2px 0 20px;
+}
+h2,
+h3 {
+  font-size: $heading2-font-size;
+  margin: 2px 0 10px;
+}
+h3 {
+  color:$red;
+  text-transform: none;
+}
+h5 {
+  color:$red;
+  font-size:$article-font-size;
+  margin: 0 0 8px 0;
+}
+
+p {
+  font-size:$article-font-size;
+  margin: 0 0 7px;
+}
+
+.meta {
+  color: $light-gray;
+  text-transform: uppercase;
+  opacity:0.5;
+  
+  #recent-posts & {
+    font-size:$small-font-size;
+  }
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  
+  .continue-reading & {
+    padding-right:25px;
+    background:url(../images/icon-arrow.svg) center right no-repeat;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
