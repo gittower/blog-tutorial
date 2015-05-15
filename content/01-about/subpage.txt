@@ -6,6 +6,8 @@ Text:
 
 ### Tower - Not a moustache, but the best Git client.
 
+(image:tower-logo.png class:float-left alt:Tower Git Client)
+
 We help over __50,000 users__ in companies like Apple, Google, Amazon, Twitter, and Facebook to easily & productively work with the Git version control system.
 
 (link:http://www.git-tower.com text:Try it 30 days for free popup:yes)

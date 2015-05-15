@@ -30,6 +30,10 @@ h3 {
 h3 {
   color:$red;
   text-transform: none;
+  
+  .subpage-content & {
+    margin: 2px 0 25px;
+  }
 }
 h5 {
   color:$red;

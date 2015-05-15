@@ -163,7 +163,7 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 0px; }
 
 /**
  * Address differences between Firefox and other browsers.
@@ -576,6 +576,8 @@ h3 {
 h3 {
   color: #E3857D;
   text-transform: none; }
+  .subpage-content h3 {
+    margin: 2px 0 25px; }
 
 h5 {
   color: #E3857D;
@@ -853,6 +855,9 @@ article.teaser--top {
 .subpage-content {
   margin-top: 88px;
   margin-bottom: 79px; }
+  .subpage-content .float-left {
+    float: left;
+    margin-right: 25px; }
 
 /************ Footer */
 footer {
