@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: The Moustache Monthly
+
+---- 
+
+Author: Tobias Günther, git-tower.com
 
 ----
 
-Author: Bastian Allgeier GmbH
+Description: A collection of wonderful beards.
 
 ----
 
-Description: This is Kirby's Starterkit.
+Keywords: moustache, beard, facial hair
 
 ----
 
-Keywords: Kirby, CMS, file-based
-
-----
-
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2010-(date: Year) (link: http://www.git-tower.com text: Tower)
