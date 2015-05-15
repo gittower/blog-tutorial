@@ -1,0 +1,21 @@
+Title: The Fu Manchu
+
+----
+
+Date: 2014-11-17
+
+----
+
+Author: Ralph Grando
+
+----
+
+RecommendedReading:
+- posts/dali
+- posts/handlebar
+
+----
+
+Text:
+
+Without the Fu Manchu, our stereotypes of ancient Asia would simply not be complete. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

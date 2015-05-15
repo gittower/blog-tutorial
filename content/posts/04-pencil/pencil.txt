@@ -1,0 +1,21 @@
+Title: The Pencil
+
+----
+
+Date: 2015-02-25
+
+----
+
+Author: Ralph Grando
+
+----
+
+RecommendedReading:
+- posts/dali
+- posts/handlebar
+
+----
+
+Text:
+
+It's narrow, straight and thin as if drawn on by a pencil. It chose Clark Gable as its host and conquered the world of the 1940s quicker than the flu. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
