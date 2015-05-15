@@ -7,7 +7,7 @@
     <meta name="description" content="<?php echo $site->description() ?>" />
     <meta name="keywords" content="<?php echo $site->keywords() ?>" />
     
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <?php echo css('assets/css/styles.css'); ?>
   </head>
 
 
