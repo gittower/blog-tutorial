@@ -55,12 +55,11 @@ article.teaser--top {
 
   & .teaser-image {
     @include size($teaser-image-size);
-    @include background-image(  url("../images/chevron-no-background.svg"), 
-                                linear-gradient(#e34731 0%, #e34d35 33%, #e46143 34%, #e56244 66%, #e57b53 67%, #e57b53 100%));
-    background-position:center bottom;
-    background-repeat:no-repeat;
-    border-radius:8px;
     margin-bottom:18px;
+    
+    img {
+      border-radius:8px;
+    }
   }
 }
 
