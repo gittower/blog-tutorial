@@ -565,6 +565,9 @@ h6 {
   text-transform: uppercase;
   margin: 2px 0 20px; }
 
+.subpage-content h1 {
+  margin: 2px 0 40px; }
+
 h2,
 h3 {
   font-size: 1.75em;
@@ -845,6 +848,11 @@ article.teaser--top {
       #about .tower-icon {
         background-image: url("../images/icon-tower_2x.png");
         background-size: 114px 147px; } }
+
+/************ Subpage Content */
+.subpage-content {
+  margin-top: 88px;
+  margin-bottom: 79px; }
 
 /************ Footer */
 footer {

@@ -191,6 +191,14 @@ article.teaser--top {
   }
 }
 
+
+/************ Subpage Content */
+.subpage-content {
+  margin-top:88px;
+  margin-bottom:79px;
+}
+
+
 /************ Footer */
 footer {
   @include span-columns(12);
