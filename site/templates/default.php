@@ -23,8 +23,7 @@
         <section id="author">
           <div class="author-icon"></div>
           <div class="author-content">
-            <h5>About Ralph Grando</h5>
-            <p>A man of style, Ralph grew his first moustache in the tender age of 12. Over the years, he has become what can safely be called a "connoisseur" of facial hair.</p>
+            <?php snippet('author-bio', array('name' => $page->author()))?>
           </div>
         </section>
 
