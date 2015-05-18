@@ -26,14 +26,16 @@
             <?php snippet('author-bio', array('name' => $page->author()))?>
           </div>
         </section>
-
         <section id="recommended-reading">
           <h5>Recommended Reading</h5>
           <ul>
-            <li><a href="#">Trimming &amp; Clipping: The Basic Techniques</a></li>
-            <li><a href="#">An Ode to the Moustache</a></li>
-            <li><a href="#">The Horseshoe: A Grown Man's Beard</a></li>
-            <li><a href="#">All Articles</a></li>
+            <?php
+            $recommendedArticles = $page->recommendedreading()->yaml();
+            foreach($recommendedArticles as $recommendedArticle): 
+              $recommendedArticlePage = $pages->find($recommendedArticle);
+            ?>
+              <li><a href="<?php echo $recommendedArticlePage->url() ?>"><?php echo $recommendedArticlePage->title() ?></a></li>
+            <?php endforeach; ?>
           </ul>
         </section>
       </div>
