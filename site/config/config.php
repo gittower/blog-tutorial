@@ -33,6 +33,14 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 /*
 ---------------------------------------
+Debug Mode
+---------------------------------------
+*/
+c::set('debug', true);
+
+
+/*
+---------------------------------------
 Caching
 ---------------------------------------
 */
