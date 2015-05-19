@@ -28,3 +28,13 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+
+
+/*
+---------------------------------------
+Caching
+---------------------------------------
+*/
+c::set('cache', false);
+c::set('cache.ignore', array('search', 'newsletter'));  /* example values */
