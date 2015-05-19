@@ -38,3 +38,13 @@ Caching
 */
 c::set('cache', false);
 c::set('cache.ignore', array('search', 'newsletter'));  /* example values */
+
+
+/*
+---------------------------------------
+Miscellaneous
+---------------------------------------
+*/
+// character length of teaser texts
+c::set('teaser.newest', 200);
+c::set('teaser.recent', 150);
