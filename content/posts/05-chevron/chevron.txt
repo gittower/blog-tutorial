@@ -18,4 +18,8 @@ RecommendedReading:
 
 Text:
 
-It's fair to say that The Chevron ruled the culture of the 1980s. No less a figure than Tom Selleck himself made it popular in our all-time favorite TV series Magnum. In this edition, we'll take a closer look at this fine portion of facial hair. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+It's fair to say that The Chevron ruled the culture of the 1980s. No less a figure than Tom Selleck himself made it popular in our all-time favorite TV series Magnum. In this edition, we'll take a closer look at this fine portion of facial hair. 
+
+(button:Magnum on Wikipedia link:http://en.wikipedia.org/wiki/Thomas_Magnum)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
