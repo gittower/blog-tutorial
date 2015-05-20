@@ -1,13 +1,4 @@
-<?php
-
-// Get all child pages in the "posts" page
-$allPosts = $pages->get('posts')->children()->visible();
-
-// we want all but the latest item
-$recentPosts = $allPosts->flip()->slice(1);
-
-// cycle through all recent posts
-foreach($recentPosts as $recentPost): ?>
+<?php foreach($recentPosts as $recentPost): ?>
 
 <article class="teaser--recent">
   <div class="meta"><?php echo date("M d, Y", $recentPost->date()) ?> by <?php echo $recentPost->author() ?></div>
